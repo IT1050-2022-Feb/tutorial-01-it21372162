@@ -4,8 +4,22 @@
 
 #include <stdio.h>
 
-int main() {
+int main(void) {
+  //create variables
+  float x,y;
+  //get input from user
+  printf("enter marks 1 - ");
+  scanf("%f",&x);
   
-  return 0;
-}
+  printf("enter marks 2 - ");
+  scanf("%f",&y);
 
+  //cal avg
+  float avg;
+  avg=(x+y)/2.0;
+  
+  //print the average
+  
+  printf("average is :%.2f\n",avg);
+return 0;
+}
